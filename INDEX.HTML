@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>McDonald's</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+ 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Ore	lega+One&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+<body>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="INDEX.HTML" class="pull-left visible-md visible-lg">
+						<img id="logo-image" src="https://miro.medium.com/max/2000/1*6JDbWUZmpWT_reZbXAaj4g.png" alt="Logo Image">
+					</a>
+					<div class="navbar-brand">
+						<a href="INDEX.HTML"><h1>McDonald's</h1></a>
+						<p>
+							<img  id="small" src="images/label.png">
+							<span>Fast Food Resturant</span>
+						</p>
+					</div>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+			            <span class="sr-only"></span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+		         	 </button>
+				</div>
+				<div id="collapsable-nav" class="collapse navbar-collapse ">
+			           <ul id="nav-list" class="nav navbar-nav navbar-right">
+			           	<li class="active visible-xs">
+			              <a href="INDEX.HTML">
+			                <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home</a>
+			            </li>
+			            <li>
+			              <a href="menu-categories.html">
+			                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+			            </li>
+			            <li>
+			              <a href="#">
+			                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+			            </li>
+			            <li>
+			              <a href="#">
+			                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+			            </li>
+			            <li id="phone" class="hidden-xs">
+			              <a href="tel:0300 8476832">
+			                <span>0300 8476832</span></a><div>* We Deliver</div>
+			            </li>
+			          </ul><!-- #nav-list -->
+        		</div><!-- .collapse .navbar-collapse -->
+		</div>
+		</nav>
+	</header>
+	<!-- Header Work end here -->
+	<!-- Coursel Works Start Here -->
+	<div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:0300 8476832">
+    <span class="glyphicon glyphicon-earphone"></span>0300 8476832
+    </a>
+  	</div>
+  	<div id="xs-deliver" class="text-center visible-xs ">* We Deliver</div>
+  	<div id="main-content" class="container">
+	 <div id="myCarousel" class="carousel slide img-responsive" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="images/4111741654_40f95c01dd_b.0.0-1080x720.jpg" alt="Los Angeles">
+      </div>
+
+      <div class="item">
+        <img src="images/close-up-photo-of-burger-3915906-scaled.jpg" alt="Chicago" >
+      </div>
+    
+      <div class="item">
+        <img src="images/happy-meal-senior-mcd-sweden-cover.jpg" alt="New york" >
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- Coursel Works Ends  Here -->
+  <!-- Making the tiles below the page -->
+  <div id="home-tiles" class="row">
+  	<div class="col-md-4 col-sm-6 col-xs-12">
+  		<a href="menu-categories.html"><div id="menu-tiles"><span>Deals</span></div></a>
+  	</div>
+  	<div class="col-md-4 col-sm-6 col-xs-12">
+  		<a href="Deserts.html"><div id="special-tiles"><span>Deserts</span></div></a>
+  	</div>
+  	<div class="col-md-4 col-sm-12 col-xs-12">
+  	<a href="https://goo.gl/maps/rBuY4dQvs3z6iM1r6" target="_blank">
+  		<div id="map-tiles">
+  			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13604.646947808878!2d74.2906555!3d31.5197175!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5c6a40e8618e4cf7!2sMcDonald&#39;s!5e0!3m2!1sen!2s!4v1618772160484!5m2!1sen!2s" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  		<span>Map</span>
+  	</div>
+  	</a> 
+  		
+  	</div>
+  </div>
+  <!-- Tile Work ends here -->
+	</div>
+	<!-- main container ends here -->
+
+	<!--Footer Starts Here -->
+	<footer class="panel-footer" id="footer" role="navigation">
+		<div class="container">
+			<div class="row">
+				<section id="Hours" class="col-sm-4">
+					<span>Hours:</span><br>
+					03:00pm-2:00am<br>
+					Friday 5:00pm-2:00am<br>
+					Saturday Sunday Open<br>
+					<hr class="visible-xs">
+				</section>
+				<section id="Address" class="col-sm-4">
+					<span>Address:</span> <br>
+					No، 13, Kashmir Block Allama Iqbal Town, Lahore, Punjab 54000<br>
+					<p>*Free Delivery within 30km on and order of Rs 1000/- and above</p>
+					<hr class="visible-xs">
+				</section>
+				<section id="Reviews" class="col-sm-4">
+					<p>"Good service in during covid-19 lockdown days ...we are happy to take a way and go home and make a party.."
+					</p>
+					<p>"I m love in it"</p>
+					
+				</section>
+				<div id="text-center">&copy;McDonalds Pakistan 2021 Copyright </div>
+			</div>
+		</div>
+		
+	</footer>
+	
+	 
+</body>
+</html>
